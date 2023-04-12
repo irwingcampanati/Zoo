@@ -37,10 +37,12 @@
                                 gato.DataNascimento = Convert.ToDateTime(Console.ReadLine());
                                 Console.Write("Cor: ");
                                 gato.Cor = Console.ReadLine();
+                                Console.WriteLine(gato.Som);
                                 listaDeAnimais.Add(gato);
                                 File.AppendAllText(caminhoDoArquivo, gato.Nome + ";");
                                 File.AppendAllText(caminhoDoArquivo, gato.DataNascimento + ";");
                                 File.AppendAllText(caminhoDoArquivo, gato.Cor + ";");
+                                File.AppendAllText(caminhoDoArquivo, gato.Som + ";");
                                 File.AppendAllText(caminhoDoArquivo, "\n");
                             }
 
@@ -54,11 +56,12 @@
                                 Console.Write("Data de nascimento: ");
                                 cachorro.DataNascimento = Convert.ToDateTime(Console.ReadLine());
                                 Console.Write("Cor: ");
-                                cachorro.Cor = Console.ReadLine();
+                                cachorro.Cor = Console.ReadLine();                           
                                 listaDeAnimais.Add(cachorro);
                                 File.AppendAllText(caminhoDoArquivo, cachorro.Nome + ";");
                                 File.AppendAllText(caminhoDoArquivo, cachorro.DataNascimento + ";");
                                 File.AppendAllText(caminhoDoArquivo, cachorro.Cor + ";");
+                                File.AppendAllText(caminhoDoArquivo, cachorro.Som + ";");
                                 File.AppendAllText(caminhoDoArquivo, "\n");
                             }
 
@@ -72,11 +75,12 @@
                                 Console.Write("Data de nascimento: ");
                                 vaca.DataNascimento = Convert.ToDateTime(Console.ReadLine());
                                 Console.Write("Cor: ");
-                                vaca.Cor = Console.ReadLine();
+                                vaca.Cor = Console.ReadLine();                                
                                 listaDeAnimais.Add(vaca);
                                 File.AppendAllText(caminhoDoArquivo, vaca.Nome + ";");
                                 File.AppendAllText(caminhoDoArquivo, vaca.DataNascimento + ";");
                                 File.AppendAllText(caminhoDoArquivo, vaca.Cor + ";");
+                                File.AppendAllText(caminhoDoArquivo, vaca.Som + ";");
                                 File.AppendAllText(caminhoDoArquivo, "\n");
                             }
 

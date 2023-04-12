@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Irwing\\Zoo\\Zoo\\Zoo\\Zoo.csproj": {}
+    "C:\\Users\\irwin\\OneDrive\\Documentos\\GitHub\\Zoo\\Zoo.csproj": {}
   },
   "projects": {
-    "C:\\Irwing\\Zoo\\Zoo\\Zoo\\Zoo.csproj": {
+    "C:\\Users\\irwin\\OneDrive\\Documentos\\GitHub\\Zoo\\Zoo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Irwing\\Zoo\\Zoo\\Zoo\\Zoo.csproj",
+        "projectUniqueName": "C:\\Users\\irwin\\OneDrive\\Documentos\\GitHub\\Zoo\\Zoo.csproj",
         "projectName": "Zoo",
-        "projectPath": "C:\\Irwing\\Zoo\\Zoo\\Zoo\\Zoo.csproj",
+        "projectPath": "C:\\Users\\irwin\\OneDrive\\Documentos\\GitHub\\Zoo\\Zoo.csproj",
         "packagesPath": "C:\\Users\\irwin\\.nuget\\packages\\",
-        "outputPath": "C:\\Irwing\\Zoo\\Zoo\\Zoo\\obj\\",
+        "outputPath": "C:\\Users\\irwin\\OneDrive\\Documentos\\GitHub\\Zoo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\irwin\\AppData\\Roaming\\NuGet\\NuGet.Config",
