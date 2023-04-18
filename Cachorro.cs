@@ -4,7 +4,7 @@
     {
         public Cachorro() : base()
         {
-
+            Som = "Au Au Au";
         }
         public Cachorro(string nome, DateTime dataNascimento, string cor, string som)
             : base(nome, dataNascimento, cor, som)

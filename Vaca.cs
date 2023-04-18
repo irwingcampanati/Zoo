@@ -4,7 +4,7 @@
     {
         public Vaca():base()
         {
-            
+            Som = "Muuuuuuuu";
         }
         public Vaca(string nome, DateTime dataNascimento, string cor, string som) 
             :base(nome, dataNascimento, cor, som)

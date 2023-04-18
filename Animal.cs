@@ -8,10 +8,10 @@
             DataNascimento = new DateTime();
             Cor = "";
         }
-        public Animal(string nome, DateTime DataNascimento,string cor, string som)
+        public Animal(string nome, DateTime dataNascimento,string cor, string som)
         {
             Nome = nome;
-            DataNascimento = DataNascimento;
+            DataNascimento = dataNascimento;
             Cor = cor;
             Som = som;
         }
