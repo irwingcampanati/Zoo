@@ -42,7 +42,7 @@ namespace Zoo
 
                                 listaDeAnimais.Add(gato);
                                 File.AppendAllText(caminhoDoArquivo, gato.Nome + "; ");
-                                File.AppendAllText(caminhoDoArquivo, gato.DataNascimento.ToShortTimeString + "; ");
+                                File.AppendAllText(caminhoDoArquivo, gato.DataNascimento + "; ");
                                 File.AppendAllText(caminhoDoArquivo, gato.Cor + "; ");
                                 File.AppendAllText(caminhoDoArquivo, gato.Som + "; ");
                                 File.AppendAllText(caminhoDoArquivo, "\n");
@@ -61,7 +61,7 @@ namespace Zoo
 
                                 listaDeAnimais.Add(cachorro);
                                 File.AppendAllText(caminhoDoArquivo, cachorro.Nome + "; ");
-                                File.AppendAllText(caminhoDoArquivo, cachorro.DataNascimento.ToShortTimeString + "; ");
+                                File.AppendAllText(caminhoDoArquivo, cachorro.DataNascimento + "; ");
                                 File.AppendAllText(caminhoDoArquivo, cachorro.Cor + "; ");
                                 File.AppendAllText(caminhoDoArquivo, cachorro.Som + "; ");
                                 File.AppendAllText(caminhoDoArquivo, cachorro.TemMancha + "; ");
@@ -81,7 +81,7 @@ namespace Zoo
 
                                 listaDeAnimais.Add(vaca);
                                 File.AppendAllText(caminhoDoArquivo, vaca.Nome + "; ");
-                                File.AppendAllText(caminhoDoArquivo, vaca.DataNascimento.ToShortTimeString + "; ");
+                                File.AppendAllText(caminhoDoArquivo, vaca.DataNascimento + "; ");
                                 File.AppendAllText(caminhoDoArquivo, vaca.Cor + "; ");
                                 File.AppendAllText(caminhoDoArquivo, vaca.Som + "; ");
                                 File.AppendAllText(caminhoDoArquivo, vaca.EstaDoente + "; ");
