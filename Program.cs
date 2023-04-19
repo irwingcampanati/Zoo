@@ -1,4 +1,6 @@
-﻿using System.Diagnostics;
+﻿using Microsoft.VisualBasic.FileIO;
+using System.Diagnostics;
+using System.IO;
 using System.Reflection.Metadata;
 using System.Xml.Linq;
 
@@ -104,8 +106,9 @@ namespace Zoo
                         break;
 
                     case 3:
-                        Directory.Delete(caminhoDoArquivo);
-                        break;
+                    Directory.Exists(caminhoDoArquivo);
+                    Directory.Delete(caminhoDoArquivo, true);
+                    break;
 
                     default:
                         break;
