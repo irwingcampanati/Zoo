@@ -28,8 +28,9 @@ namespace Zoo
             Console.WriteLine("Bem vindo ao serviço de cadastro e consulta de animais do Zoológico, selecione abaixo a opção desejada e confirme.");
             Console.WriteLine("1 - Cadastrar novos animais.");
             Console.WriteLine("2 - Consultar animais já cadastrados no banco de dados.");
-            Console.WriteLine("3 - Apagar as informações já cadastradas no banco de dad.");
-            Console.WriteLine("4 - Sair.");
+            Console.WriteLine("3 - Fazer backup do banco já cadastrado.");
+            Console.WriteLine("4 - Apagar as informações já cadastradas no banco de dados.");
+            Console.WriteLine("5 - Sair.");
             double opcao = double.Parse(Console.ReadLine());
 
             switch (opcao)
@@ -65,7 +66,7 @@ namespace Zoo
                             {
                                 var cachorro = new Cachorro();
                                 Console.Write("Nome: ");
-                                cachorro.Nome = Console.ReadLine();
+                                cachorro.Nome = Console.ReadLine();                                
                                 Console.Write("Data de nascimento: ");
                                 cachorro.DataNascimento = Convert.ToDateTime(Console.ReadLine());
                                 Console.Write("Cor: ");
@@ -117,8 +118,11 @@ namespace Zoo
                     break;
 
                 case 3:
-                    Directory.Exists(caminhoDoArquivo);
-                    Directory.Delete(caminhoDoArquivo, true);
+                    File.Copy(caminhoDoArquivo, caminhoPastaBancoDeDados + "\\" + "Backup.txt", true);
+                    break;
+                
+                case 4:
+                    Directory.Delete(caminhoPastaBancoDeDados, true);
                     break;
 
                 default:
